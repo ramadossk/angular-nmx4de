@@ -59,7 +59,7 @@ body .third img:hover{
     background: #11073b;
     height: 605px;
     padding: 10px 10px;
-    
+    box-shadow:0 0 20px rgb(20, 22, 27);
     text-align: center;
     transition: .5s;
     opacity: 1;
@@ -263,13 +263,13 @@ div label:hover{
 }
 .btn button{
     outline: 0;
-    background:none;
+    background-color: #df8c11;
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
     width: 180px;
     padding: 10px;
-    border: 2.5px solid #03a9f4;
+    border: 1px solid #03a9f4;
     border-radius: 15px;
     cursor: pointer;
     margin-top: 20px;
@@ -282,7 +282,8 @@ div label:hover{
     background: #df8c11;
     transform: scale(1.1);
     width: 210px;
-    border-color: #df8c11;
+    
+    border-color:2.5px solid #df8c11;
 }
 
 
