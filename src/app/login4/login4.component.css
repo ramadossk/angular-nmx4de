@@ -8,14 +8,14 @@
 body{
     height: 100vh;
     z-index: -1;
-    background-image: linear-gradient(120deg, #f1f1f1,rgb(38, 176, 240));
+    background-image: linear-gradient(120deg, #f1f1f1,rgb(231, 109, 8));
 }
 body .first img{
   position: fixed;
   height: 25vh;
   top: 0;  
-  margin-left: 150px;
-  margin-top: 23px;
+  margin-left: 520px;
+  margin-top: 10px;
   transition: 1.5s;
   
 }
@@ -29,40 +29,40 @@ body .first img:hover{
 
 body .second img{
   position: fixed;
-  height: 113vh;
-  margin-left: 38%;
+  height: 80vh;
+  margin-left: 25%;
   bottom: 0;
-  left: -20px;
+  
   
   
 }
 body .third img{
   position: fixed;
-  height: 77vh;
+  height: 86vh;
   bottom: 0;
-  left: -3%;
+  z-index: -0.5;
   transition: 1s;
 }
 body .third img:hover{
   transition-delay: .5s;
   
-  height: 80vh;
+  height: 90vh;
   bottom: 0;
-  left: -3%;
+  
 }
 #card{
   position: absolute;
     top: 50%;
     left: 80%;
     transform: translate(-50%,-50%);
-    width: 400px;
-    background: #001628;
-    height: 580px;
+    width: 450px;
+    background: #11073b;
+    height: 605px;
     padding: 10px 10px;
-    border-radius: 10px;
+    
     text-align: center;
     transition: .5s;
-    opacity: .95;
+    opacity: 1;
     
 }
 #card:before{
@@ -70,11 +70,11 @@ body .third img:hover{
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: 10px;
-    width: 20px;
-    height: 20px;
-    border-top: 2px solid #21ebff;
-    border-left: 2px solid #fff200;
+    
+    width: 0;
+    height: 0;
+    border-top: 3px solid #f5f6fa;
+    border-left: 3px solid #f5f6fa;
     transition: 2.5s;
     transition-delay: 0.5s;
     
@@ -87,18 +87,18 @@ body .third img:hover{
     right: 0;
     margin-left: 100px;
     margin-top: 10px;
-    border-radius: 10px;
-    width: 20px;
-    height: 20px;
-    border-bottom: 2px solid #21ebff;
-    border-right: 2px solid #f9ca24;
+    
+    width: 0;
+    height: 0;
+    border-bottom: 3px solid #f5f6fa;
+    border-right: 3px solid #f5f6fa;
     transition: 2.5s;
     transition-delay: 0.5s;
 }
 #card:hover::before{
     width: 100%;
     height: 100%;
-    transition-delay: .5s;
+    transition-delay: 0s;
 }
 #card:hover::after{
     width: 100%;
@@ -118,7 +118,7 @@ form h1{
     padding: 6.5px 5px;
     width: 200px;
     height: 70px;
-    margin-left: 95px;
+    margin-left: 118px;
     
     
     
@@ -146,10 +146,10 @@ form h1:before{
     top: 0;
     left: 0;
     
-    width: 35px;
+    width: 20px;
     height: 20px;
-    border-top: 2px solid #21ebff;
-    border-left: 2px solid #21ebff;
+    border-top: 2px solid #f37d0e;
+    border-left: 2px solid #f37d0e;
     transition: 0.5s;
     transition-delay: 0.5s;
     
@@ -161,10 +161,10 @@ form h1:after{
     right: 0;
     margin-left: 100px;
     margin-top: 10px;
-    width: 35px;
+    width: 20px;
     height: 20px;
-    border-bottom: 2px solid #21ebff;
-    border-right: 2px solid #21ebff;
+    border-bottom: 2px solid #f37d0e;
+    border-right: 2px solid #f37d0e;
     transition: 0.5s;
     transition-delay: 0.5s;
 }
@@ -180,12 +180,17 @@ form h1:hover::after{
 }
 
 form #span{
-    background: linear-gradient(90deg, #ade612,#f441a5,#ffeb3b,#03a9f4);
-    width: 380px;
+    background: linear-gradient(90deg, #f18509,#f1f0f3,#0cf3f3,#eb1515);
+    width: 430px;
     height: 2px;
     display:block;
     margin-top: 13px;
 
+}
+.log .profil img{
+  height: 16vh;
+  margin-top: -20px;
+  
 }
 .log .input{
     outline: 0;
@@ -200,7 +205,7 @@ form #span{
     margin-top: 6px;
     border: 2.5px solid #2e86de;
     box-sizing: border-box;
-    border-radius: 25px;
+    border-radius: 15px;
     transition: 0.5s;
     transition-property: width;
 }
@@ -210,9 +215,11 @@ form #span{
 }
 */
 .log .input:hover{
+  border: 2.5px solid #df8c11;
     width: 320px;
 }
 .log .input:focus{
+  border: 2.5px solid #df8c11;
     width: 320px;
 }
 .log input::placeholder{
@@ -227,6 +234,10 @@ div label{
     margin-top: 30px;
     
 }
+div label:hover{
+  color: #df8c11;
+}
+
 .tx .elabel{
   margin-left: -68%;
 }
@@ -235,14 +246,17 @@ div label{
   
 }
 .tx i{
-  color: #29f1f1;
+  color: #df8c11;
   font-size: 22px;
   text-shadow: 0 0 50px #fff;
 }
 .checkbox .check{
-  margin-left: -195px;
+  margin-left: -230px;
   font-size: 16px;
   margin-top: -10%;
+}
+.checkbox .check:hover{
+  color: #df8c11;
 }
 .btn{
   margin-top: 10px;
@@ -253,10 +267,10 @@ div label{
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
-    width: 165px;
+    width: 180px;
     padding: 10px;
     border: 2.5px solid #03a9f4;
-    border-radius: 25px;
+    border-radius: 15px;
     cursor: pointer;
     margin-top: 20px;
     transition: 0.5s;
@@ -265,21 +279,17 @@ div label{
 }
 
 .btn button:active, .btn button:focus{
-    background: #03a9f4;
+    background: #df8c11;
     transform: scale(1.1);
-    width: 200px;
+    width: 210px;
+    border-color: #df8c11;
 }
-.log .input:hover{
-    width: 320px;
-}
-.log .input:focus{
-    width: 320px;
-}
+
 
 .btn button:hover{
   background: linear-gradient(230deg, #03a9f4,#f441a5,#ffeb3b,#03a9f4);
   background-size: 400%;
-  width: 200px;
+  width: 240px;
   box-shadow: 0 0 10px #2196f3;
   /*ackground-position: right;*/
   transition-delay: .2s;
