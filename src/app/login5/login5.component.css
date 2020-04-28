@@ -7,14 +7,14 @@
 }
 body{
     height: 100vh;
-    z-index: -1;
+    
     background-image: linear-gradient(120deg,rgb(122, 44, 224),#f1f1f1);
 }
 body .first img{
   position: fixed;
   height: 25vh;
   top: 0;  
-  margin-left: 520px;
+  margin-left: 75%;
   margin-top: 10px;
   transition: 1.5s;
   
@@ -29,24 +29,28 @@ body .first img:hover{
 
 body .second img{
   position: fixed;
-  height: 80vh;
-  margin-left: 25%;
+  display: block;
+  
+  height: 105vh;
+  margin-left: 35%;
   bottom: 0;
   
   
   
 }
 body .third img{
-  position: fixed;
-  height: 86vh;
-  bottom: 0;
-  z-index: -0.5;
-  transition: 1s;
+   position: fixed;
+  height: 45vh;
+  
+  margin-left: 52%;
+  bottom: 1%;
+  transition: 1.5s;
+  
 }
 body .third img:hover{
   transition-delay: .5s;
   
-  height: 90vh;
+  height: 48vh;
   bottom: 0;
   
 }
@@ -73,8 +77,8 @@ body .third img:hover{
     
     width: 0;
     height: 0;
-    border-top: 3px solid #f5f6fa;
-    border-left: 3px solid #f5f6fa;
+    border-top: 3px solid #ee0c7d;
+    border-left: 3px solid #ec13a4;
     transition: 2.5s;
     transition-delay: 0.5s;
     
@@ -90,8 +94,8 @@ body .third img:hover{
     
     width: 0;
     height: 0;
-    border-bottom: 3px solid #f5f6fa;
-    border-right: 3px solid #f5f6fa;
+    border-bottom: 3px solid #1651f5;
+    border-right: 3px solid #1675f0;
     transition: 2.5s;
     transition-delay: 0.5s;
 }
@@ -148,8 +152,8 @@ form h1:before{
     
     width: 20px;
     height: 20px;
-    border-top: 2px solid #f37d0e;
-    border-left: 2px solid #f37d0e;
+    border-top: 2px solid #ec13a4;
+    border-left: 2px solid #ec13a4;
     transition: 0.5s;
     transition-delay: 0.5s;
     
@@ -163,8 +167,8 @@ form h1:after{
     margin-top: 10px;
     width: 20px;
     height: 20px;
-    border-bottom: 2px solid #f37d0e;
-    border-right: 2px solid #f37d0e;
+    border-bottom: 2px solid #1675f0;
+    border-right: 2px solid #1675f0;
     transition: 0.5s;
     transition-delay: 0.5s;
 }
@@ -189,8 +193,11 @@ form #span{
 }
 .log .profil img{
   height: 16vh;
-  margin-top: -20px;
+  margin-top: -14px;
   
+}
+.txtb{
+  margin-top: -5px;
 }
 .log .input{
     outline: 0;
@@ -203,7 +210,10 @@ form #span{
     padding: 15px;
     font-weight: bold;
     margin-top: 6px;
-    border: 2.5px solid #2e86de;
+    border-top: 2.5px solid #ec13a4;
+    border-left: 2.5px solid #ec13a4;
+    border-right: 2.5px solid #2e86de;
+    border-bottom: 2.5px solid #2e86de;
     box-sizing: border-box;
     border-radius: 15px;
     transition: 0.5s;
@@ -215,11 +225,11 @@ form #span{
 }
 */
 .log .input:hover{
-  border: 2.5px solid #df8c11;
+  
     width: 320px;
 }
 .log .input:focus{
-  border: 2.5px solid #df8c11;
+  
     width: 320px;
 }
 .log input::placeholder{
@@ -235,7 +245,7 @@ div label{
     
 }
 div label:hover{
-  color: #df8c11;
+  color: #ec13a4;
 }
 
 .tx .elabel{
@@ -246,9 +256,9 @@ div label:hover{
   
 }
 .tx i{
-  color: #df8c11;
+  color: #03a9f4;
   font-size: 22px;
-  text-shadow: 0 0 50px #fff;
+  text-shadow: 0 0 50px rgb(238, 34, 34);
 }
 .checkbox .check{
   margin-left: -230px;
@@ -256,7 +266,7 @@ div label:hover{
   margin-top: -10%;
 }
 .checkbox .check:hover{
-  color: #df8c11;
+  color: #ec13a4;
 }
 .btn{
   margin-top: 10px;
@@ -269,7 +279,10 @@ div label:hover{
     text-transform: uppercase;
     width: 180px;
     padding: 10px;
-    border: 2.5px solid #03a9f4;
+    border-top: 2.5px solid #ec13a4;
+    border-bottom: 2.5px solid #03a9f4;
+    border-left: 2.5px solid #03a9f4;
+    border-right: 2.5px solid #03a9f4;
     border-radius: 15px;
     cursor: pointer;
     margin-top: 20px;
