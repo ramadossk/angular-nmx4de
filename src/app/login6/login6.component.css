@@ -58,6 +58,7 @@ body .third img:hover{
   
 }
 #card{
+  
   position: absolute;
     top: 50%;
     left: 50%;
@@ -66,7 +67,7 @@ body .third img:hover{
     background-image: linear-gradient(90deg, rgb(122, 44, 224),rgb(160, 161, 236),#e9540f);
     height: 605px;
     padding: 10px 10px;
-    border-radius: 10px;
+    border-radius: 70px 0 25px 0;
     box-shadow:0 0 20px rgb(20, 22, 27);
     text-align: center;
     transition: .5s;
@@ -237,7 +238,7 @@ form #span{
 */
 .log .input:hover{
    background: linear-gradient(90deg,#f8f8f8,#f3f5f7);
-   border-radius: 10px;
+   border-radius: 0 25px 0 25px;
    border-top: 2.5px solid #e9540f;
     border-left: 2.5px solid #e9540f;
     border-right: 2.5px solid #0f6de9;
@@ -250,7 +251,7 @@ form #span{
     width: 320px;
 }
 .log input::placeholder{
-  color: #f5f6fa;
+  color: #d42257;
   font-style:inherit;
   letter-spacing: 1.2px;
 }

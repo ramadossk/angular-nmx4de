@@ -60,12 +60,13 @@ body .third img:hover{
     left: 1%;
     transform: translate(0,-50%);
     width: 450px;
-    background-image: linear-gradient(120deg, #181717,rgb(160, 161, 236),#c08686);
+    background-image: linear-gradient(120deg, #181717,rgb(160, 160, 168),#c08686);
     height: 605px;
     padding: 10px 10px;
     box-shadow:0 0 20px rgb(20, 22, 27);
     text-align: center;
     transition: .5s;
+    border-radius: 70px 0 10px 0;
     opacity: 1;
     
 }
@@ -102,11 +103,13 @@ body .third img:hover{
 #card:hover::before{
     width: 100%;
     height: 100%;
+    border-radius: 70px 0 10px 0;
     transition-delay: 0s;
 }
 #card:hover::after{
     width: 100%;
     height: 100%;
+    border-radius: 70px 0 10px 0;
     transition-delay: 0s;
 }
 
@@ -175,6 +178,7 @@ form h1:after{
 form h1:hover::before{
     width: 100%;
     height: 100%;
+    border-radius: 20px 0 0 0;
     transition-delay: 0s;
 }
 form h1:hover::after{
@@ -219,7 +223,7 @@ form #span{
     border-right: 2.5px solid #2e86de;
     border-bottom: 2.5px solid #2e86de;
     box-sizing: border-box;
-    border-radius: 1px;
+    border-radius: 25px 0 2px 0;
     transition: 0.5s;
     transition-property: width;
 }
