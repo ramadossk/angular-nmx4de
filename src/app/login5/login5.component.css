@@ -215,7 +215,7 @@ form #span{
     border-right: 2.5px solid #2e86de;
     border-bottom: 2.5px solid #2e86de;
     box-sizing: border-box;
-    border-radius: 15px;
+    border-radius: 1px;
     transition: 0.5s;
     transition-property: width;
 }
