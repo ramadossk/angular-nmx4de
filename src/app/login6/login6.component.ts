@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-login6',
   templateUrl: './login6.component.html',
@@ -8,8 +9,14 @@ import { Component, OnInit } from '@angular/core';
 export class Login6Component implements OnInit {
 
   constructor() { }
+  
 
   ngOnInit() {
   }
 
 }
+/*
+function togglecard(){
+          document.getElementById("card").classList.toggle("active");
+        }
+        */

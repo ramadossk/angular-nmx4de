@@ -64,7 +64,11 @@ body .third img:hover{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 450px;
-    background-image: linear-gradient(90deg, rgb(122, 44, 224),rgb(160, 161, 236),#e9540f);
+    /*
+    background-color: rgb(24, 34, 70);
+    */
+    background-image: linear-gradient(90deg, rgb(48, 58, 94),rgb(18, 18, 65),#463026);
+    
     height: 605px;
     padding: 10px 10px;
     border-radius: 70px 0 25px 0;
@@ -73,6 +77,18 @@ body .third img:hover{
     transition: .5s;
     opacity: 1;
     
+}
+#card.active{
+  top: 50%;
+}
+body .login{
+  
+    left: 50%;
+    
+    
+    background-color: #2196f3;
+    width: 300px;
+    height: 100px;
 }
 #card:before{
     content: '';
@@ -88,6 +104,7 @@ body .third img:hover{
     transition-delay: 0.5s;
     
 }
+
 #card:after{
     content: '';
     z-index: -1;
@@ -180,11 +197,13 @@ form h1:after{
 form h1:hover::before{
     width: 100%;
     height: 100%;
+    border-radius: 30px 0 20px 0;
     transition-delay: 0s;
 }
 form h1:hover::after{
     width: 100%;
     height: 100%;
+    border-radius: 30px 0 20px 0;
     transition-delay: 0s;
 }
 
