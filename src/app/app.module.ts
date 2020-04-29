@@ -23,7 +23,7 @@ const routes: Routes = [
   { path: 'login4', component: Login4Component },
   { path: 'login5', component: Login5Component },
   { path: 'login6', component: Login6Component },
-  { path: 'login7', component: Login6Component }
+  { path: 'login7', component: Login7Component }
 ]
 @NgModule({
   imports:      [ BrowserModule, ParticlesModule, FormsModule,RouterModule.forRoot(routes) ],
