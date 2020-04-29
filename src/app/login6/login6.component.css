@@ -8,13 +8,13 @@
 body{
     height: 100vh;
     
-    background-image: linear-gradient(120deg,rgb(122, 44, 224),#f1f1f1);
+    background-image: linear-gradient(120deg,#f1f1f1,#e9540f,rgb(122, 44, 224),#16ecda);
 }
 body .first img{
   position: fixed;
-  height: 25vh;
+  height: 20vh;
   top: 0;  
-  margin-left: 75%;
+  margin-left: 80%;
   margin-top: 10px;
   transition: 1.5s;
   
@@ -31,26 +31,29 @@ body .second img{
   position: fixed;
   display: block;
   
-  height: 105vh;
-  margin-left: 35%;
+  height:90vh;
+  left:-16%;
+  bottom: -1%;
+}
+body .chat img{
+  height: 23vh;
+  position: fixed;
   bottom: 0;
-  
-  
-  
+  left: 3.8%;
 }
 body .third img{
    position: fixed;
-  height: 45vh;
+  height: 82vh;
+  bottom: 0;
+  margin-left: 60%;
   
-  margin-left: 52%;
-  bottom: 1%;
   transition: 1.5s;
   
 }
 body .third img:hover{
   transition-delay: .5s;
   
-  height: 48vh;
+  height: 83vh;
   bottom: 0;
   
 }
@@ -60,9 +63,10 @@ body .third img:hover{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 450px;
-    background-image: linear-gradient(120deg, #181717,rgb(160, 161, 236),#c08686);
+    background-image: linear-gradient(90deg, rgb(122, 44, 224),rgb(160, 161, 236),#e9540f);
     height: 605px;
     padding: 10px 10px;
+    border-radius: 10px;
     box-shadow:0 0 20px rgb(20, 22, 27);
     text-align: center;
     transition: .5s;
@@ -77,8 +81,8 @@ body .third img:hover{
     
     width: 0;
     height: 0;
-    border-top: 3px solid #ee0c7d;
-    border-left: 3px solid #ec13a4;
+    border-top: 3px solid rgb(122, 44, 224);
+    border-left: 3px solid rgb(122, 44, 224);
     transition: 2.5s;
     transition-delay: 0.5s;
     
@@ -94,8 +98,8 @@ body .third img:hover{
     
     width: 0;
     height: 0;
-    border-bottom: 3px solid #1651f5;
-    border-right: 3px solid #1675f0;
+    border-bottom: 3px solid #e9540f;
+    border-right: 3px solid #e9540f;
     transition: 2.5s;
     transition-delay: 0.5s;
 }
@@ -214,9 +218,12 @@ form #span{
     padding: 15px;
     font-weight: bold;
     margin-top: 6px;
+    border: none;
+    /*
     border-top: 2.5px solid #ec13a4;
     border-left: 2.5px solid #ec13a4;
     border-right: 2.5px solid #2e86de;
+    */
     border-bottom: 2.5px solid #2e86de;
     box-sizing: border-box;
     border-radius: 1px;
