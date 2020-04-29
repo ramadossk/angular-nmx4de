@@ -15,7 +15,7 @@ import { Login6Component } from './login6/login6.component';
 
 
 const routes: Routes = [
-  { path: '',   redirectTo: 'login5', pathMatch: 'full' }, 
+  { path: '',   redirectTo: 'login6', pathMatch: 'full' }, 
   { path: 'login', component: LoginComponent },
   { path: 'login2', component: Login2Component },
   { path: 'login3', component: Login3Component },
