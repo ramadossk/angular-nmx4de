@@ -156,8 +156,8 @@ form h1:before{
     
     width: 20px;
     height: 20px;
-    border-top: 2px solid #ec13a4;
-    border-left: 2px solid #ec13a4;
+    border-top: 2px solid #e9540f;
+    border-left: 2px solid #e9540f;
     transition: 0.5s;
     transition-delay: 0.5s;
     
@@ -224,7 +224,7 @@ form #span{
     border-left: 2.5px solid #ec13a4;
     border-right: 2.5px solid #2e86de;
     */
-    border-bottom: 2.5px solid #2e86de;
+    border-bottom: 2.5px solid #fff;
     box-sizing: border-box;
     border-radius: 1px;
     transition: 0.5s;
@@ -236,8 +236,14 @@ form #span{
 }
 */
 .log .input:hover{
-  
+   background: linear-gradient(90deg,#f8f8f8,#f3f5f7);
+   border-radius: 10px;
+   border-top: 2.5px solid #e9540f;
+    border-left: 2.5px solid #e9540f;
+    border-right: 2.5px solid #0f6de9;
+    border-bottom: 2.5px solid #0f6de9;
     width: 320px;
+    color: black;
 }
 .log .input:focus{
   
@@ -256,7 +262,7 @@ div label{
     
 }
 div label:hover{
-  color: #ec13a4;
+  color: #e9540f;
 }
 
 .tx .elabel{
@@ -277,7 +283,7 @@ div label:hover{
   margin-top: -10%;
 }
 .checkbox .check:hover{
-  color: #ec13a4;
+  color: #e9540f;
 }
 .btn{
   margin-top: 10px;
@@ -290,7 +296,7 @@ div label:hover{
     text-transform: uppercase;
     width: 180px;
     padding: 10px;
-    border-top: 2.5px solid #ec13a4;
+    border-top: 2.5px solid #03a9f4;
     border-bottom: 2.5px solid #03a9f4;
     border-left: 2.5px solid #03a9f4;
     border-right: 2.5px solid #03a9f4;
@@ -303,10 +309,10 @@ div label:hover{
 }
 
 .btn button:active, .btn button:focus{
-    background: #df8c11;
+    background: #e9540f;
     transform: scale(1.1);
     width: 210px;
-    border-color: #df8c11;
+    border-color: #e9540f;
 }
 
 
