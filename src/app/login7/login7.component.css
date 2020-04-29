@@ -292,23 +292,23 @@ div label:hover{
 }
 .btn button{
     outline: 0;
-    background-color: #df8c11;
+    background-image: linear-gradient(to right,#03a9f4,#a39a9f,#20f3a2);
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
-    width: 180px;
+    width: 200px;
     padding: 10px;
     border: 1px solid #03a9f4;
     border-radius: 15px;
     cursor: pointer;
     margin-top: 20px;
     transition: 0.5s;
-    
+    background-size: 200%;
     transition-property: backgroung,transform,width;
 }
 
 .btn button:active, .btn button:focus{
-    background: #df8c11;
+    background:rgb(26, 224, 108);
     transform: scale(1.1);
     width: 210px;
     
@@ -317,13 +317,18 @@ div label:hover{
 
 
 .btn button:hover{
+
   background: linear-gradient(230deg, #03a9f4,#f441a5,#ffeb3b,#03a9f4);
   background-size: 400%;
+  
+  
+  background-position: right;
   width: 240px;
   box-shadow: 0 0 10px #2196f3;
+  animation: animate 7s linear infinite;
   /*ackground-position: right;*/
   transition-delay: .2s;
-  animation: animate 7s linear infinite;
+  
 }
 @keyframes animate
 {
