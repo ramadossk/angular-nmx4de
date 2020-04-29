@@ -196,6 +196,10 @@ form #span{
   margin-top: -14px;
   
 }
+.log .profil img:hover{
+  height: 17vh;
+  margin-top: -20px;
+  }
 .txtb{
   margin-top: -5px;
 }
