@@ -38,7 +38,7 @@ body .second img{
 }
 body .third img{
   position: fixed;
-  height: 86vh;
+  height: 84vh;
   bottom: 0;
   z-index: -0.5;
   transition: 1s;
@@ -46,7 +46,7 @@ body .third img{
 body .third img:hover{
   transition-delay: .5s;
   
-  height: 90vh;
+  height: 88vh;
   bottom: 0;
   
 }
@@ -57,14 +57,16 @@ body .third img:hover{
     transform: translate(-50%,-50%);
     width: 450px;
     
-    background: #8475ca;
+    background: #f4f4f5;
+    
+    background-size: 500%;
     height: 605px;
     padding: 10px 10px;
     box-shadow:0 0 20px rgb(20, 22, 27);
     text-align: center;
     border-radius: 70px 0 25px 0;
     transition: .5s;
-    opacity: .8;
+    
     
 }
 #card:hover{
@@ -79,8 +81,8 @@ body .third img:hover{
     
     width: 0;
     height: 0;
-    border-top: 3px solid #f5f6fa;
-    border-left: 3px solid #f5f6fa;
+    border-top: 3px solid #3e5fe4;
+    border-left: 3px solid #3f61e7;
     transition: 2.5s;
     transition-delay: 0.5s;
     
@@ -96,8 +98,8 @@ body .third img:hover{
     
     width: 0;
     height: 0;
-    border-bottom: 3px solid #f5f6fa;
-    border-right: 3px solid #f5f6fa;
+    border-bottom: 3px solid #eb2dab;
+    border-right: 3px solid #e71bdd;
     transition: 2.5s;
     transition-delay: 0.5s;
 }
@@ -118,10 +120,10 @@ form h1{
   position: relative;
     font-size: 50px;
     text-align: center;
-    color: #f5f6fa;
+    color: #2113e9;
     text-decoration: none;
     text-transform: uppercase;
-    text-shadow: 0 0 7px rgb(223, 17, 69);
+    text-shadow: 0 0 7px rgb(230, 16, 16);
     letter-spacing: 2px;
     padding: 6.5px 5px;
     width: 200px;
@@ -191,7 +193,7 @@ form h1:hover::after{
 }
 
 form #span{
-    background: linear-gradient(90deg, #f18509,#f1f0f3,#0cf3f3,#eb1515);
+    background: linear-gradient(90deg, #f18509,#500cd8,#d31574,#eb1515);
     width: 430px;
     height: 2px;
     display:block;
@@ -211,7 +213,7 @@ form #span{
     outline: 0;
     background: none;
     font-size: 15px;
-    color: #fff;
+    color: rgb(8, 8, 8);
     text-align: center;
     width: 240px;
     margin-bottom: 30px;
@@ -223,6 +225,7 @@ form #span{
     border-radius: 15px;
     transition: 0.5s;
     transition-property: width;
+    box-shadow: 0 0 10px #16191b;
 }
 /*
 .tx #pwd{
@@ -238,12 +241,12 @@ form #span{
     width: 320px;
 }
 .log input::placeholder{
-  color: #f5f6fa;
+  color: #df8c11;
   font-style:inherit;
   letter-spacing: 1.2px;
 }
 div label{
-    color: rgb(245, 245, 245);
+    color: rgb(14, 11, 11);
     margin-left: -58%;
     font-size: 20px;
     margin-top: 30px;
@@ -289,7 +292,7 @@ div label:hover{
     cursor: pointer;
     margin-top: 20px;
     transition: 0.5s;
-    
+    box-shadow: 0 0 10px #16191b;
     transition-property: backgroung,transform,width;
 }
 

@@ -60,7 +60,7 @@ body .third img:hover{
     left: 1%;
     transform: translate(0,-50%);
     width: 450px;
-    background-image: linear-gradient(120deg, #ebeff1,#8eb9f1);
+    background-image: linear-gradient(120deg, #ebeff1,#eef1f5);
     height: 605px;
     padding: 10px 10px;
     box-shadow:0 0 20px rgb(20, 22, 27);
@@ -226,6 +226,7 @@ form #span{
     border-radius: 25px 0 2px 0;
     transition: 0.5s;
     transition-property: width;
+    box-shadow: 0 0 10px #16191b;
 }
 /*
 .tx #pwd{
@@ -282,7 +283,7 @@ div label:hover{
 .btn button{
     outline: 0;
     background:none;
-    color: #fff;
+    color: rgb(14, 12, 12);
     font-size: 16px;
     text-transform: uppercase;
     width: 180px;
@@ -295,6 +296,7 @@ div label:hover{
     cursor: pointer;
     margin-top: 20px;
     transition: 0.5s;
+  box-shadow: 0 0 20px #16191b;
     
     transition-property: backgroung,transform,width;
 }
@@ -308,7 +310,7 @@ div label:hover{
 
 
 .btn button:hover{
-  background: linear-gradient(230deg, #03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  background: linear-gradient(230deg, #db4e0d,#f441a5,#ffeb3b,#f33708);
   background-size: 400%;
   width: 240px;
   box-shadow: 0 0 10px #2196f3;
