@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     
-    background-image: linear-gradient(120deg,rgb(122, 44, 224),#f1f1f1);
+    background-image: linear-gradient(120deg,rgb(182, 140, 236),#f1f1f1);
 }
 body .first img{
   position: fixed;
@@ -60,14 +60,14 @@ body .third img:hover{
     left: 1%;
     transform: translate(0,-50%);
     width: 450px;
-    background-image: linear-gradient(120deg, #181717,rgb(160, 160, 168),#c08686);
+    background-image: linear-gradient(120deg, #ebeff1,#8eb9f1);
     height: 605px;
     padding: 10px 10px;
     box-shadow:0 0 20px rgb(20, 22, 27);
     text-align: center;
     transition: .5s;
     border-radius: 70px 0 10px 0;
-    opacity: 1;
+    opacity: .8;
     
 }
 #card:before{
@@ -117,7 +117,7 @@ form h1{
   position: relative;
     font-size: 50px;
     text-align: center;
-    color: #f5f6fa;
+    color: #0a0a0c;
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 0 0 7px rgb(223, 17, 69);
@@ -188,7 +188,7 @@ form h1:hover::after{
 }
 
 form #span{
-    background: linear-gradient(90deg, #f18509,#f1f0f3,#0cf3f3,#eb1515);
+    background: linear-gradient(90deg, #f18509,#15121b,#0cf3f3,#eb1515);
     width: 430px;
     height: 2px;
     display:block;
@@ -211,7 +211,7 @@ form #span{
     outline: 0;
     background: none;
     font-size: 15px;
-    color: #fff;
+    color: rgb(19, 3, 3);
     text-align: center;
     width: 240px;
     margin-bottom: 30px;
@@ -233,7 +233,7 @@ form #span{
 }
 */
 .log .input:hover{
-  
+    background-color: #ccdbe2;
     width: 320px;
 }
 .log .input:focus{
@@ -241,12 +241,12 @@ form #span{
     width: 320px;
 }
 .log input::placeholder{
-  color: #f5f6fa;
+  color: #1b41d6;
   font-style:inherit;
   letter-spacing: 1.2px;
 }
 div label{
-    color: rgb(245, 245, 245);
+    color: #070a0e;
     margin-left: -58%;
     font-size: 20px;
     margin-top: 30px;
@@ -264,7 +264,7 @@ div label:hover{
   
 }
 .tx i{
-  color: #03a9f4;
+  color: #2c18e0;
   font-size: 22px;
   text-shadow: 0 0 50px rgb(238, 34, 34);
 }

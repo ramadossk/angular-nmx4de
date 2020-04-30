@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     z-index: -1;
-    background-image: linear-gradient(120deg, #f1f1f1,rgb(231, 109, 8));
+    background-image: linear-gradient(120deg, #f1f1f1,rgb(226, 133, 57));
 }
 body .first img{
   position: fixed;
@@ -56,14 +56,15 @@ body .third img:hover{
     left: 80%;
     transform: translate(-50%,-50%);
     width: 450px;
-    background: #3f3d56;
+    
+    background: #8475ca;
     height: 605px;
     padding: 10px 10px;
     box-shadow:0 0 20px rgb(20, 22, 27);
     text-align: center;
     border-radius: 70px 0 25px 0;
     transition: .5s;
-    opacity: 1;
+    opacity: .8;
     
 }
 #card:hover{
