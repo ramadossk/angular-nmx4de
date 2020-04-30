@@ -70,10 +70,12 @@ body .third img:hover{
     
     
 }
+/*
 #card:hover{
   width: 453px;
   height: 608px;
 }
+*/
 #card:before{
     content: '';
     position: absolute;
@@ -219,6 +221,7 @@ form #span{
     width: 240px;
     margin-bottom: 30px;
     padding: 15px;
+    box-shadow: 0 0 10px #16191b;
     font-weight: bold;
     margin-top: 6px;
     border: 2.5px solid #2e86de;
@@ -226,7 +229,8 @@ form #span{
     border-radius: 15px;
     transition: 0.5s;
     transition-property: width;
-    box-shadow: 0 0 10px #16191b;
+    
+    overflow: hidden;
 }
 /*
 .tx #pwd{
