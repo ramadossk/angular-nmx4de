@@ -14,7 +14,7 @@ body .first img{
   position: fixed;
   height: 25vh;
   top: 0;  
-  margin-left: 420px;
+  margin-left: 320px;
   margin-top: 10px;
   transition: 1.5s;
   
@@ -44,7 +44,7 @@ body .fourth img{
 body .second img{
   position: fixed;
   height: 80vh;
-  margin-left: 22%;
+  margin-left: 20%;
   bottom: 0;
   
   
@@ -53,8 +53,8 @@ body .second img{
 body .third img{
   position: fixed;
   height: 86vh;
-  bottom: 0;
-  left: -10%;
+  bottom: -2%;
+  left: -12%;
   z-index: -0.5;
   transition: 1s;
 }
@@ -71,7 +71,7 @@ body .third img:hover{
     left: 80%;
     transform: translate(-50%,-50%);
     width: 450px;
-    background: #413a96;
+    background: #f5f5f7;
     height: 605px;
     padding: 10px 10px;
     box-shadow:0 0 20px rgb(20, 22, 27);
@@ -93,8 +93,8 @@ body .third img:hover{
     
     width: 0;
     height: 0;
-    border-top: 3px solid #f5f6fa;
-    border-left: 3px solid #f5f6fa;
+    border-top: 3px solid #336ff1;
+    border-left: 3px solid #336ff1;
     transition: 2.5s;
     transition-delay: 0.5s;
     
@@ -110,8 +110,8 @@ body .third img:hover{
     
     width: 0;
     height: 0;
-    border-bottom: 3px solid #f5f6fa;
-    border-right: 3px solid #f5f6fa;
+    border-bottom: 3px solid #ec6313;
+    border-right: 3px solid #ec6313;
     transition: 2.5s;
     transition-delay: 0.5s;
 }
@@ -132,7 +132,7 @@ form h1{
   position: relative;
     font-size: 50px;
     text-align: center;
-    color: #f5f6fa;
+    color: #01030e;
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 0 0 7px rgb(223, 17, 69);
@@ -186,8 +186,8 @@ form h1:after{
     margin-top: 10px;
     width: 20px;
     height: 20px;
-    border-bottom: 2px solid rgb(26, 224, 108);
-    border-right: 2px solid rgb(26, 224, 108);
+    border-bottom: 2px solid rgb(39, 42, 231);
+    border-right: 2px solid rgb(24, 53, 218);
     transition: 0.5s;
     transition-delay: 0.5s;
 }
@@ -205,7 +205,7 @@ form h1:hover::after{
 }
 
 form #span{
-    background: linear-gradient(90deg, #f18509,#f1f0f3,#0cf3f3,#eb1515);
+    background: linear-gradient(90deg, #f18509,#220361,#0cf3f3,#eb1515);
     width: 430px;
     height: 2px;
     display:block;
@@ -225,7 +225,7 @@ form #span{
     outline: 0;
     background: none;
     font-size: 15px;
-    color: #fff;
+    color: rgb(15, 5, 5);
     text-align: center;
     width: 240px;
     margin-bottom: 30px;
@@ -236,6 +236,7 @@ form #span{
     box-sizing: border-box;
     border-radius: 15px;
     transition: 0.5s;
+    
     transition-property: width;
 }
 /*
@@ -244,20 +245,20 @@ form #span{
 }
 */
 .log .input:hover{
-  border: 2.5px solid #df8c11;
+  border: 2.5px solid #336ff1;
     width: 320px;
 }
 .log .input:focus{
-  border: 2.5px solid #df8c11;
+  border: 2.5px solid #336ff1;
     width: 320px;
 }
 .log input::placeholder{
-  color: #f5f6fa;
+  color: #1194a5;
   font-style:inherit;
   letter-spacing: 1.2px;
 }
 div label{
-    color: rgb(245, 245, 245);
+    color: rgb(10, 1, 1);
     margin-left: -58%;
     font-size: 20px;
     margin-top: 30px;
@@ -277,15 +278,16 @@ div label:hover{
 .tx i{
   color: rgb(26, 224, 108);
   font-size: 22px;
-  text-shadow: 0 0 50px #fff;
+  text-shadow: 0 0 50px #091329;
 }
 .checkbox .check{
   margin-left: -230px;
   font-size: 16px;
   margin-top: -10%;
+  color: #2815d4;
 }
 .checkbox .check:hover{
-  color: #df8c11;
+  color: #45eb13;
 }
 .btn{
   margin-top: 10px;
@@ -303,6 +305,7 @@ div label:hover{
     cursor: pointer;
     margin-top: 20px;
     transition: 0.5s;
+    box-shadow: 0 0 10px #091329;
     background-size: 200%;
     transition-property: backgroung,transform,width;
 }
