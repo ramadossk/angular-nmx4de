@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     
-    background-image: linear-gradient(120deg,#f1f1f1,#e9540f,rgb(122, 44, 224),#16ecda);
+    background-image: linear-gradient(120deg,#f1f1f1,#f3ded4,rgb(213, 194, 238),#16ecda);
 }
 body .first img{
   position: fixed;
@@ -31,9 +31,9 @@ body .second img{
   position: fixed;
   display: block;
   
-  height:90vh;
+  height:80vh;
   left:-16%;
-  bottom: -1%;
+  bottom: 0;
 }
 body .chat img{
   height: 23vh;
@@ -43,7 +43,7 @@ body .chat img{
 }
 body .third img{
    position: fixed;
-  height: 82vh;
+  height: 75vh;
   bottom: 0;
   margin-left: 60%;
   
@@ -53,7 +53,7 @@ body .third img{
 body .third img:hover{
   transition-delay: .5s;
   
-  height: 83vh;
+  height: 76vh;
   bottom: 0;
   
 }
@@ -63,11 +63,11 @@ body .third img:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 450px;
+    width: 430px;
     /*
     background-color: rgb(24, 34, 70);
     */
-    background-image: linear-gradient(90deg, rgb(48, 58, 94),rgb(18, 18, 65),#463026);
+    background-image: linear-gradient(90deg, rgb(245, 246, 250),rgb(242, 242, 248),#f7f4f2);
     
     height: 605px;
     padding: 10px 10px;
@@ -95,11 +95,11 @@ body .login{
     position: absolute;
     top: 0;
     left: 0;
-    
+    border-radius: 70px 0 25px 0;
     width: 0;
     height: 0;
-    border-top: 3px solid rgb(122, 44, 224);
-    border-left: 3px solid rgb(122, 44, 224);
+    border-top: 3px solid rgb(23, 189, 211);
+    border-left: 3px solid rgb(36, 193, 221);
     transition: 2.5s;
     transition-delay: 0.5s;
     
@@ -113,11 +113,11 @@ body .login{
     right: 0;
     margin-left: 100px;
     margin-top: 10px;
-    
+    border-radius: 70px 0 25px 0;
     width: 0;
     height: 0;
-    border-bottom: 3px solid #e9540f;
-    border-right: 3px solid #e9540f;
+    border-bottom: 3px solid #12a0b9;
+    border-right: 3px solid #36eef5;
     transition: 2.5s;
     transition-delay: 0.5s;
 }
@@ -136,7 +136,7 @@ form h1{
   position: relative;
     font-size: 50px;
     text-align: center;
-    color: #f5f6fa;
+    color: #000207;
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: 0 0 7px rgb(223, 17, 69);
@@ -144,7 +144,7 @@ form h1{
     padding: 6.5px 5px;
     width: 200px;
     height: 70px;
-    margin-left: 118px;
+    margin-left: 116px;
     
     
     
@@ -208,8 +208,8 @@ form h1:hover::after{
 }
 
 form #span{
-    background: linear-gradient(90deg, #f18509,#f1f0f3,#0cf3f3,#eb1515);
-    width: 430px;
+    background: linear-gradient(90deg, #f18509,#131116,#031d1d,#eb1515);
+    width: 410px;
     height: 2px;
     display:block;
     margin-top: 13px;
@@ -244,7 +244,7 @@ form #span{
     border-left: 2.5px solid #ec13a4;
     border-right: 2.5px solid #2e86de;
     */
-    border-bottom: 2.5px solid #fff;
+    border-bottom: 2.5px solid rgb(26, 5, 5);
     box-sizing: border-box;
     border-radius: 1px;
     transition: 0.5s;
@@ -256,7 +256,7 @@ form #span{
 }
 */
 .log .input:hover{
-   background: linear-gradient(90deg,#f8f8f8,#f3f5f7);
+   background: linear-gradient(230deg,#e1e2f1,#d8cee9);
    border-radius: 0 25px 0 25px;
    border-top: 2.5px solid #e9540f;
     border-left: 2.5px solid #e9540f;
@@ -275,7 +275,7 @@ form #span{
   letter-spacing: 1.2px;
 }
 div label{
-    color: rgb(245, 245, 245);
+    color: rgb(34, 3, 3);
     margin-left: -58%;
     font-size: 20px;
     margin-top: 30px;
@@ -310,8 +310,8 @@ div label:hover{
 }
 .btn button{
     outline: 0;
-    background:none;
-    color: #fff;
+    background:#16ecda;
+    color: rgb(10, 2, 2);
     font-size: 16px;
     text-transform: uppercase;
     width: 180px;
